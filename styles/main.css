@@ -1,0 +1,81 @@
+html {
+    font-size: 62.5%;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1, h2, div, p {
+    margin: 2rem 0 2rem 0;
+}
+
+h2, p, #scoreboard {
+    font-size: 1.5rem;
+}
+
+#scoreboard {
+    width: 15%;
+    height: 7rem;
+    margin: 0 auto;
+    border-style: dashed;
+    border-width: 0.2rem;
+    margin-bottom: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3rem 4rem;
+}
+
+#scoreboard p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#choice {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 4rem;
+}
+
+#game-result {
+    width: 15%;
+    padding: 1rem;
+    margin: 3rem auto 0 auto;
+    border-width: 0.2rem;
+    border-style: dashed;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+img {
+    border-style: solid;
+    border-radius: 1rem;
+    border-width: 0.5px;
+    padding: 2rem;
+    box-shadow: 0.4rem 0.4rem 0 black;
+    width: 12rem;
+    max-width: 12rem;
+    height: 18rem;
+    max-height: 18rem;
+    z-index: 1;
+}
+
+button {
+    border: none;
+    background-color: red;
+    z-index: 10;
+    border-radius: 1rem;
+}
